@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+  int a,b;
+  printf("enter number1:");
+  scanf("%d",&a);
+
+  printf("enter number2: ");
+  scanf("%d",&b);
+
+  if (a==b){
+
+  printf("both numbers are equal ");
+  }
+  else {
+
+    printf("numbers are not equal ");
+  }
+
+
+  return 0;
+}
